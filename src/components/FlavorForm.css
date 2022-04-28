@@ -1,8 +1,3 @@
-.App {
-  display: flex;
-  justify-content: center;
-}
-
 h1 {
   display: flex;
   justify-content: center;
@@ -10,16 +5,6 @@ h1 {
   color: rgb(249, 255, 86);
   /* margin-left: 40px; */
   margin-top: 50px;
-}
-
-.header {
-  /* background-color: red;
-  border: solid black 3px; */
-  margin-top: 150px;
-  /* height: 800px; */
-  width: 500px;
-  display: flex;
-  justify-content: center;
 }
 
 .form-signUp {
@@ -31,6 +16,9 @@ h1 {
   height: 100%;
   border-radius: 10px;
   margin: 20px;
+
+  display: flex;
+  justify-content: center;
 }
 
 form {
@@ -51,16 +39,7 @@ form {
   /* margin-left: 7%; */
 }
 
-input {
-  height: 40px;
-  font-size: 20px;
-  border-radius: 5px;
-  /* margin: 0 20px; */
-  width: 300px;
-  /* border: none; */
-}
-
-.submit-butt {
+select {
   background-color: rgb(249, 255, 86);
   border-radius: 5px;
   width: 50%;
@@ -70,35 +49,29 @@ input {
   align-items: center;
   height: 40px;
   color: rgb(116, 77, 196);
-}
 
-.container-result {
-  background-color: rgb(116, 77, 196);
   display: flex;
   justify-content: center;
-  border-radius: 10px;
-  width: 700px;
-  height: 200px;
 }
 
-.result {
-  /* display: flex; */
-  font-size: 20px;
-  font-weight: bolder;
-  background-color: rgb(116, 77, 196);
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  margin: 20px;
+select > option {
+  background-color: rgb(249, 255, 86);
 }
-
-.resultat-trouve {
-  background-color: green;
-  height: 200px;
-  width: 100%;
+label {
+  /* background-color: red; */
+  justify-content: center;
   color: white;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 10px;
-  border: solid 5px rgb(1, 87, 1);
+  font-size: 30px;
+}
+
+input {
+  background-color: rgb(249, 255, 86);
+  border-radius: 5px;
+  width: 50%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  color: rgb(116, 77, 196);
 }
